@@ -1,0 +1,77 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0,0,0, 0.5);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.sign-up-box{  
+    width: 350px;
+    height: 520px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 40px 0 20px;
+
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 2em;
+    text-align: inherit;
+    color: #13314e;
+    text-transform: uppercase;
+}
+
+input[type="text"],input[type="password"]{
+
+    width: 100%;
+    background: #af9baa;
+    margin: 2px 20px 0 0;
+    padding: 10px;
+    border-style: inherit;
+    border-radius: 30px;
+    outline: none;
+    text-align: center;
+
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+    background-color: #ddd;
+    outline:none;
+}
+
+button{
+    background-color: #04aa6d;
+    color: #fff;
+    padding: 12px 32px; 
+    margin: -10px 0;
+    cursor: pointer;
+    opacity: 0.9;
+    border: none;
+
+}
+button:hover{
+    opacity: 1;
+}
+
+.cancelbtn{
+    padding: 12px 32px;
+    background-color: #ff242f;
+    margin-right: 60px;
+}
+
+/* .cancelbtn .signupbtn{ */
+    /* width: 50% */
+
+
